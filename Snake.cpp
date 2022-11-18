@@ -1,4 +1,6 @@
 #include <iostream>
+#include <windows.h>
+#include <cstdlib>
 
 using namespace std;
 
@@ -58,7 +60,9 @@ main ()
 
   while (true)
     {
-    
+	  
+    system("cls");
+	  
     int og=0;
     
       pole (tab);  // general field cleaning
